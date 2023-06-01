@@ -34,7 +34,7 @@ if($_POST) {
         echo "<p style='color: red;'>Error amb la connexió amb la base de dades!</p>";
     }
 
-} else if($_SESSION['usuari']) {
+} else if( isset($_SESSION['usuari'])) {
 
     echo "<p style='color: green'>" . $_SESSION['usuari']['nom'] . " s'ha recordat la teva sessió, redirigint...</p>";
     ?> 
