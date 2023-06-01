@@ -48,6 +48,14 @@ if( !$_SESSION['usuari'] ) {
 
     <p><?php echo $missatge ?></p>
 
+
+    <?php
+        // Creació de la taula
+        
+
+
+
+    ?>
     <p><a href="logout.php">Tancar sessió</a></p>
 
 </body>

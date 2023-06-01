@@ -40,8 +40,6 @@ if($_POST) {
     ?> 
     <meta http-equiv="refresh" content="2; url=llistat.php" />
     <?php
-} else {
-
 }
 ?>
 
